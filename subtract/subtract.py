@@ -9,7 +9,7 @@ class Solution:
 	# @return the head node in the linked list
 	def subtract(self, A):
 		if A == None or A.next == None:
-			# list is empty
+			# list has length 0 or 1
 			return A
 
 		# get length of list
